@@ -24,11 +24,11 @@ class ShowPlayerCommand extends Command {
             		if(!$this->testPermission($sender)) {
                 			return false;
                       		}
-                          		if(!$sender instanceof Player) {
-                              			$sender->sendMessage("Run this Command InGame!");
-                                    			return true;
-                                          		}
-                                              		foreach(Server::getInstance()->getOnlinePlayers() as $players){
+                         if(!$sender instanceof Player) {
+                         $sender->sendMessage("Run this Command InGame!");
+                         return true;
+                                   }
+                                         foreach(Server::getInstance()->getOnlinePlayers() as $players){
                                                               $sender->showPlayer($players);
                                                                       }
                                                                     $file = new Config($this->plugin->getDataFolder() . "settings.yml", Config::YAML);
