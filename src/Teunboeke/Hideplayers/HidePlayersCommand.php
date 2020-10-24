@@ -11,7 +11,7 @@ use pocketmine\Server;
 use pocketmine\command\PluginIdentifiableCommand;
 use pocketmine\utils\TextFormat as TF;
 use pocketmine\utils\Config;
-use Teunboeke\hideplayers\hide;
+use Teunboeke\Hideplayers\Hide;
 
 class HidePlayersCommand extends Command {
   
