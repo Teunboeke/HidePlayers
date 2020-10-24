@@ -1,4 +1,5 @@
----# Config by Teunboeke
+---
+# Config by Teunboeke
 
 # Edit the message when the player executes the "/show" command.
 command.show-player-message: "§aYou will now see players again." 
