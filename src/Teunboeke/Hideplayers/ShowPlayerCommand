@@ -1,8 +1,8 @@
 <?php
 
-declare(strict_types=1;
+declare(strict_types=1);
 
-namespace Teunboeke/hideplayers;
+namespace Teunboeke/HidePlayers;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
