@@ -8,4 +8,4 @@ use pocketmine\command\CommandSender;
 use pocketmine\event\Listener;
 use pocketmine\utils\Config;
 
-class hide extends PluginBase implements Listener{
+class Hide extends PluginBase implements Listener{
