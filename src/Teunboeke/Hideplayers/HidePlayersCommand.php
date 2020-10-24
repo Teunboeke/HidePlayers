@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Teunboeke\Hideplayers;
   
-  use pocketmine\command\Command;
+use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\Server;
