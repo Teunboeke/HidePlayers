@@ -4,8 +4,8 @@ With this plugin, commands allow you to see for yourself whenever you want to ma
 
 Command | Description | Default | Alias
 --------- | ------------------- | ------- | ------
-/hideplayers | Hide Players | op | playerhide / hide
-/showplayers | Show Players | op | playershow / show
+/hideplayers | Hide Players | op | hide / hideplayers
+/showplayers | Show Players | op | show / showplayers
 
 ---------------
 
