@@ -2,7 +2,6 @@
 build-by-default: true
 branches:
 - master
-projects: 
-  HidePlayers:
+projects: [HidePlayers]
 path ""
 ...
