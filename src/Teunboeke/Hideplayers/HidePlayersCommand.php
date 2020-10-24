@@ -14,3 +14,25 @@ use pocketmine\utils\Config;
 use Teunboeke\hideplayers\hide;
 
 class HidePlayersCommand extends Command {
+  
+  	public function __construct(Main $plugin) {
+		parent::__construct("hideplayers", "Hide Players", "/hideplayers", ["playerhide", "hide"]);
+      		$this->plugin = $plugin;
+      	}
+  
+  	public function execute(CommandSender $sender, string $commandLabel, array $args): bool {
+      		if(!$this->testPermission($sender)) {
+            			return false;
+            		}
+      		if(!$sender instanceof Player) {
+            			$sender->sendMessage("Run this Command InGame!");
+            			return true;
+            		}
+      		foreach(Server::getInstance()->getOnlinePlayers() as $players){
+                        $sender->hidePlayer($players);
+                    }
+              $file = new Config($this->plugin->getDataFolder() . "settings.yml", Config::YAML);
+              $sender->sendMessage($file->get("hide-player-message"));
+              return false;
+          }
+  }
