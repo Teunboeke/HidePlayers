@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Teunboeke/hideplayers;
+namespace Teunboeke\hideplayers;
   
   use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
