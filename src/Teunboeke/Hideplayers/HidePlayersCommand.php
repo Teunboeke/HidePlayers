@@ -17,6 +17,7 @@ class HidePlayersCommand extends Command {
   
   	public function __construct(Main $plugin) {
 		parent::__construct("hideplayers", "Hide Players", "/hideplayers", ["playerhide", "hide"]);
+				$this->setPermission("hideplayer.use");
       		$this->plugin = $plugin;
       	}
   
