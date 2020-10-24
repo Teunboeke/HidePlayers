@@ -1,6 +1,6 @@
 <?php
 
-namespace Teunboeke\hideplayers;
+namespace Teunboeke\Hideplayers;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
