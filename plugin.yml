@@ -1,5 +1,5 @@
 name: HidePlayers
-main: Teunboeke\Hideplayers\Hide
+main: Teunboeke\Hideplayers\Main
 author: Teunboeke 
 version: 1.0.0
 api: 3.13.0
