@@ -1,6 +1,6 @@
 # HidePlayers
 
-With this plugin, commands allow you to see for yourself whenever you want to make all players invisible to you or not.
+With this plugin, commands allow you to see for yourself whenever you want to make all players invisible to you or not. this can really help on servers with much players.
 
 Command | Description | Default | Alias
 --------- | ------------------- | ------- | ------
