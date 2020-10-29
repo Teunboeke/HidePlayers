@@ -13,7 +13,7 @@ use pocketmine\utils\TextFormat as TF;
 use pocketmine\utils\Config;
 use Teunboeke\Hideplayers\Main;
 
-class ShowPlayerCommand extends Command {
+class Main extends Command {
 
 	public function __construct(Main $plugin) {
 		parent::__construct("showplayers", "Show Players", "/showplayers", ["playershow", "show"]);
