@@ -32,7 +32,7 @@ class HidePlayersCommand extends Command {
       		foreach(Server::getInstance()->getOnlinePlayers() as $players){
                         $sender->hidePlayer($players);
                     }
-              $file = new Config($this->plugin->getDataFolder() . "settings.yml", Config::YAML);
+              $this->file = new Config($this->getDataFolder() . "settings.yml", Config::YAML);
               $sender->sendMessage($file->get("hide-player-message"));
               return false;
           }
