@@ -33,7 +33,7 @@ class ShowPlayerCommand extends Command {
                                                               $sender->showPlayer($players);
                                                                       }
                                                                    $this->file = new Config($this->getDataFolder() . "settings.yml", Config::YAML);
-                                                                   $sender->sendMessage($file->get("show-player-message"));
+                                                                  $sender->sendMesssage($this->file->get("show-player-message"));
                                                                                     return false;
                                                                                         }
                                                                                      }
