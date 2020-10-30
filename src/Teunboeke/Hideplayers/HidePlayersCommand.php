@@ -33,7 +33,7 @@ class HidePlayersCommand extends Command {
                         $sender->hidePlayer($players);
                     }
               $this->file = new Config($this->getDataFolder() . "settings.yml", Config::YAML);
-              $sender->sendMessage($file->get("hide-player-message"));
+             $sender->sendMesssage($this->file->get("hide-player-message"));
               return false;
           }
   }
