@@ -32,8 +32,8 @@ class ShowPlayerCommand extends Command {
                                          foreach(Server::getInstance()->getOnlinePlayers() as $players){
                                                               $sender->showPlayer($players);
                                                                       }
-                                                                    $file = new Config($this->plugin->getDataFolder() . "settings.yml", Config::YAML);
-                                                                          $sender->sendMessage($file->get("show-player-message"));
+                                                                   $this->file = new Config($this->getDataFolder() . "settings.yml", Config::YAML);
+                                                                   $sender->sendMessage($file->get("show-player-message"));
                                                                                     return false;
                                                                                         }
                                                                                      }
